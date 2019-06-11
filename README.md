@@ -1,9 +1,8 @@
 # Quantifying the uncertainty of deep learning-based computer-aided diagnosis for patient safety
 #### Max-Heinrich Laves, Sontje Ihler, Lüder A. Kahrs, Tobias Ortmaier
 
-<img src="https://github.com/mlaves/uncertainty-bmt/raw/master/readme_imgs/oct1.jpg" alt="OCT1" height="192">
-<img src="https://github.com/mlaves/uncertainty-bmt/raw/master/readme_imgs/oct2.jpg" alt="OCT2" height="192">  
-__Fig. 1:__ Uncertainty estimation in retinal OCT. Left: Correctly predicted scan results in low prediction uncertainty Us. Right: False prediction correlates with high prediction uncertainty. In this scan, the disease characteristics are only weakly present (white arrow), which makes the diagnosis challenging.
+<img src="https://github.com/mlaves/uncertainty-bmt/raw/master/readme_imgs/oct1.jpg" alt="OCT1" height="192"> <img src="https://github.com/mlaves/uncertainty-bmt/raw/master/readme_imgs/oct2.jpg" alt="OCT2" height="192">  
+**Fig. 1:** Uncertainty estimation in retinal OCT. Left: Correctly predicted scan results in low prediction uncertainty Us. Right: False prediction correlates with high prediction uncertainty. In this scan, the disease characteristics are only weakly present (white arrow), which makes the diagnosis challenging.
 
 In this work, we discuss epistemic uncertainty estimation obtained by Bayesian inference in diagnostic classifiers and show that the prediction uncertainty highly correlates with *goodness* of prediction.
 We train the ResNet-18 image classifier on a dataset of 84.484 optical coherence tomography scans showing four different retinal conditions.
