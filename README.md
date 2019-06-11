@@ -1,6 +1,5 @@
 # Quantifying the uncertainty of deep learning-based computer-aided diagnosis for patient safety
-
-## Max-Heinrich Laves, Sontje Ihler, Lüder A. Kahrs, Tobias Ortmaier
+#### Max-Heinrich Laves, Sontje Ihler, Lüder A. Kahrs, Tobias Ortmaier
 
 In this work, we discuss epistemic uncertainty estimation obtained by Bayesian inference in diagnostic classifiers and show that the prediction uncertainty highly correlates with *goodness* of prediction.
 We train the ResNet-18 image classifier on a dataset of 84.484 optical coherence tomography scans showing four different retinal conditions.
